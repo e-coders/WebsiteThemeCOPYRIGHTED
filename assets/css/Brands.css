@@ -1,0 +1,43 @@
+.brands {
+  color: #313437;
+  background-color: #fff;
+}
+
+.brands a {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+}
+
+@media (max-width:767px) {
+  .brands a {
+    padding: 30px 0;
+  }
+}
+
+.brands a img {
+  display: inline-block;
+  margin: 10px 20px;
+  vertical-align: middle;
+}
+
+.col.footer-dark {
+  margin: 49px;
+}
+
+.width-30 {
+  width: 30%;
+  margin: 49px;
+}
+
+.margin {
+  margin: 10px;
+}
+
+.alert.alert-danger {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
