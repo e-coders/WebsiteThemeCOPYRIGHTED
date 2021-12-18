@@ -30,5 +30,3 @@ function addResult(title,category,desc){
 	g = document.querySelector("#search-results");
 	g.innerHTML += `<div class="col-md-6 col-lg-4 item"><div class="box"><h3 class="name">` + title + `</h3><p class="title">` + category + `</p><p class="description">` + desc + `</p></div></div>`;
 }
-
-
